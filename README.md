@@ -13,26 +13,25 @@ git clone https://github.com/tomasklapka/gapi-template-package gapi-foo
 cd gapi-foo
 ```
 
-Remove .git folder:
+Remove *.git* folder:
 ```
 rm -rf .git
 ```
 
-Edit `package.json`:
+Edit *package.json*:
 ```
 $EDITOR package.json
 ```
 
-
-Where to put CoffeeScript source files?
----------------------------------------
-
- * source files go to ./src
- * test source files go to ./test/src
- * example source files go to ./examples/src
-
-
 gulp
 ----
 
-See [gulpfile.js](gulpfile.js) for Gulp tasks
+See [gulpfile.js](gulpfile.js) for Gulp tasks.
+
+Frequently used commands:
+-------------------------
+
+ * `npm install` - to install modules and trigger its *prepublish* script
+ * `gulp` - to compile source files into JS and documentation
+ * `npm test` - to run tests with coverage information
+ * `node --harmony examples/lib/example` - to run compiled example.js script with harmony proxies if used

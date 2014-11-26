@@ -1,22 +1,29 @@
 {
   "name": "gapi-template-package",
   "version": "0.0.1",
+  "homepage": "http://github.com/pirati-cz/gapi-template-package",
   "description": "GAPI module template package",
   "keywords": [
-    "pirate",
-    "party",
+    "gapi",
     "graph",
     "api",
     "linked data",
     "sparql",
     "rest",
-    "bigdata"
+    "bigdata",
+    "semantic",
+    "web"
   ],
   "author": {
     "name": "Pirate Party Czech Republic",
     "email": "dev@pirati.cz"
   },
-  "license": "UNLICENSE",
+  "licenses": [
+    {
+      "type": "Public domain",
+      "url": "http://unlicense.org/"
+    }
+  ],
   "main": "./index.js",
   "repository": {
     "type": "git",
